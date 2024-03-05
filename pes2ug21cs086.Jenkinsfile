@@ -3,8 +3,11 @@
     stages {
       stage('Build') {
             steps {
-               111build 'PES2UG21CS086-1'
-               sh 'g++ t1.cpp -o output'
+               build 'PES2UG21CS086-1'
+               sh 'aaag++ t1.cpp -o output' //sh 'g++ t1.cpp -o output' 
+               catchError {
+                    sh './gradlew compileJava --stacktrace'
+                }
             }
         }
       stage('Test') {
