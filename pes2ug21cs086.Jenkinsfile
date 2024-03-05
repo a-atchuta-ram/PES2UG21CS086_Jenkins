@@ -13,7 +13,7 @@
             }
         }
       stage('Deploy') {
-         steps {
+         stepsss//steps {
                echo 'deploy'
             }
       }
