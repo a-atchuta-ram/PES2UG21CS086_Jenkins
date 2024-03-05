@@ -7,8 +7,7 @@ int main(void) {
   cout << "Hello, Jenkins\n";
   cout << "this is Atchuta\n";
   cout << "I have successfully built and run\n";
-  cout << "this is Atchuta__ changed\n";
-  cout << "this is Atchuta__ changed___V2\n";
+    cout << "this is Ram\n";
 
   return 0;
 }
