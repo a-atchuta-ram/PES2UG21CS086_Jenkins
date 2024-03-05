@@ -3,7 +3,7 @@
     stages {
       stage('Build') {
             steps {
-               build 'PES2UG21CS086-1'
+               111build 'PES2UG21CS086-1'
                sh 'g++ t1.cpp -o output'
             }
         }
@@ -20,7 +20,7 @@
     }
       post{
          failure{
-               error 'Pipeline Failed'
+               echo 'Pipeline Failed'
     }
   }
 }
